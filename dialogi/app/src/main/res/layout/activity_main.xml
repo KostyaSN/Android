@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dbffdb"
+    android:layout_centerHorizontal="true"
+    tools:context="com.test.dialog.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:text="First"
+        android:onClick="clickTextView1"
+        android:clickable="true"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:text="Sec"
+        android:layout_below="@+id/textView1"
+        android:onClick="clickTextView2"
+        android:clickable="true"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:text="Therd"
+        android:layout_below="@+id/textView2"
+        android:onClick="clickTextView3"
+        android:clickable="true"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
